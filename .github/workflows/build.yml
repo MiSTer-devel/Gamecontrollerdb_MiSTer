@@ -1,0 +1,33 @@
+name: Gamecontrolledb merge
+on:
+  push:
+  schedule:
+    - cron: '0 0 * * *'
+jobs:
+  gcdb-assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Main
+        uses: actions/checkout@v2
+        with:
+          path: main
+      - name: Download gamecontrollerdb.txt
+        run: |
+          curl https://raw.githubusercontent.com/gabomdq/SDL_GameControllerDB/master/gamecontrollerdb.txt -o gamecontrollerdb_sdl.txt
+      - name: Merge gamecontrollerdb
+        run: |
+          cat ./main/gamecontrollerdb_header.txt > ./main/gamecontrollerdb.txt
+          grep "platform:Linux" gamecontrollerdb_sdl.txt >> ./main/gamecontrollerdb.txt
+          cat ./main/gamecontrollerdb_mister.txt >> ./main/gamecontrollerdb.txt
+      - name: Check in release
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: Zakk
+          author_email: zakk@rsdio.com
+          message: Automated Release
+          add: '["gamecontrollerdb.txt"]'
+          cwd: './main'
+
+
+           
+

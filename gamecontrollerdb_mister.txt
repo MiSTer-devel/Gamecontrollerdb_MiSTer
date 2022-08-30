@@ -1,0 +1,8 @@
+# MiSTer specific default controller mappings
+
+#MiSTer uses a modified version of hid-playstation that exposes the microphone mute as a normal button. 
+#Adjust the button numbers to reflect this
+030000004c050000e60c000011810000,PS5 Controller,a:b0,b:b1,back:b9,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b11,leftshoulder:b5,leftstick:b12,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b6,rightstick:b13,righttrigger:a5,rightx:a3,righty:a4,start:b10,x:b3,y:b2,platform:MiSTer,
+050000004c050000e60c000000810000,PS5 Controller,a:b0,b:b1,back:b9,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b11,leftshoulder:b5,leftstick:b12,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b6,rightstick:b13,righttrigger:a5,rightx:a3,righty:a4,start:b10,x:b3,y:b2,platform:MiSTer,
+
+
