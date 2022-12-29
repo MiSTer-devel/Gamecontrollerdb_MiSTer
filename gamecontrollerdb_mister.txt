@@ -5,4 +5,12 @@
 030000004c050000e60c000011810000,PS5 Controller,a:b0,b:b1,back:b9,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b11,leftshoulder:b5,leftstick:b12,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b6,rightstick:b13,righttrigger:a5,rightx:a3,righty:a4,start:b10,x:b3,y:b2,platform:MiSTer,
 050000004c050000e60c000000810000,PS5 Controller,a:b0,b:b1,back:b9,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b11,leftshoulder:b5,leftstick:b12,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b6,rightstick:b13,righttrigger:a5,rightx:a3,righty:a4,start:b10,x:b3,y:b2,platform:MiSTer,
 
+#Guncon 2 plug and play entries for various cores
+030000009a0b00006a01000000010000,Namco GunCon 2,dpright:h0.2,dpleft:h0.8,dpdown:h0.4,dpup:h0.1,b:b2,menuok:b2,menuesc:b0,start:b0,a:b1,guide:h0.4,guide2:b5,platform:MiSTer,mistercore:PSX
+030000009a0b00006a01000000010000,Namco GunCon 2,dpright:h0.2,dpleft:h0.8,dpdown:h0.4,dpup:h0.1,menuok:b2,menuesc:b0,rightshoulder:b2,start:b5,guide:h0.4,guide2:b5,platform:MiSTer,mistercore:NES
+030000009a0b00006a01000000010000,Namco GunCon 2,dpright:h0.2,dpleft:h0.8,dpdown:h0.4,dpup:h0.1,b:b2,menuok:b2,menuesc:b0,a:b0,x:b5,guide:h0.4,guide2:b5,platform:MiSTer,mistercore:SNES
+030000009a0b00006a01000000010000,Namco GunCon 2,dpright:h0.2,dpleft:h0.8,dpdown:h0.4,dpup:h0.1,b:b2,menuok:b2,menuesc:b0,a:b0,rightshoulder:b1,start:b5,guide:h0.4,guide2:b5,platform:MiSTer,mistercore:Genesis
+030000009a0b00006a01000000010000,Namco GunCon 2,b:b2,menuok:b2,menuesc:b0,a:b0,rightshoulder:b1,start:b5,guide:h0.4,guide2:b5,platform:MiSTer,mistercore:MegaCD
+030000009a0b00006a01000000010000,Namco GunCon 2,dpright:h0.2,dpleft:h0.8,dpdown:h0.4,dpup:h0.1,menuok:b2,menuesc:b0,b:b2,start:b5,guide:h0.4,guide2:b5,platform:MiSTer,mistercore:SMS
+030000009a0b00006a01000000010000,Namco GunCon 2,dpright:h0.2,dpleft:h0.8,dpdown:h0.4,dpup:h0.1,menuok:b2,menuesc:b0,b:b2,start:b5,guide:h0.4,guide2:b5,platform:MiSTer,mistercore:ATARI7800
 
