@@ -13,7 +13,7 @@ jobs:
           path: main
       - name: Download gamecontrollerdb.txt
         run: |
-          curl https://raw.githubusercontent.com/gabomdq/SDL_GameControllerDB/master/gamecontrollerdb.txt -o gamecontrollerdb_sdl.txt
+          curl https://raw.githubusercontent.com/mdqinc/SDL_GameControllerDB/master/gamecontrollerdb.txt -o gamecontrollerdb_sdl.txt
       - name: Merge gamecontrollerdb
         run: |
           cat ./main/gamecontrollerdb_header.txt > ./main/gamecontrollerdb.txt
