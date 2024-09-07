@@ -1,6 +1,6 @@
 ## Game controller database for MiSTer
 
-Game controller default mappings derived from https://github.com/gabomdq/SDL_GameControllerDB. 
+Game controller default mappings derived from https://github.com/mdqinc/SDL_GameControllerDB. 
 
 Non-Linux platform entries are removed and some MiSTer specific entries are added.
 
