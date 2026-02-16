@@ -9,5 +9,5 @@ Non-Linux platform entries are removed and some MiSTer specific entries are adde
 
 - platform 'MiSTer' added. In the event of conflict the MiSTer platform takes priority over 'Linux'.
 - buttons 'menuok' and 'menuesc' are mappable. If these entries do not exist in the mapping 'a' and 'b' buttons are mapped to these functions.
-- Core based matching. 'mistercore:<corename>' limits the mapping entry to only the named core. Wildcards are supported. A database linecan have multiple mistercore entries. 
+- Core based matching. 'mistercore:<corename>' limits the mapping entry to only the named core. Wildcards are supported. A database line can have multiple mistercore entries. 
 
