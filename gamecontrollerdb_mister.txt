@@ -24,6 +24,8 @@
 #brunofreitas.com's RetroFi Adapter default mapping
 03000000d01600004012000001010000,RetroFi Adapter,dpright:h0.2,dpleft:h0.8,dpdown:h0.4,dpup:h0.1,menuok:b1,menuesc:b2,b:b1,a:b2,y:b0,x:b3,leftx:a0,lefty:a1,rightx:a3,righty:a2,leftshoulder:b6,rightshoulder:b7,back:b8,start:b9,guide:b9,guide2:h0.4,platform:MiSTer,
 
+#brunofreitas.com's RetroPad32 default mapping (PS3/D-Input output mode)
+03000000c4100000c082000011010000,www.brunofreitas.com RetroPad32 Adapter,a:b1,b:b2,x:b0,y:b3,back:b8,guide:b12,start:b9,leftstick:b10,rightstick:b11,leftshoulder:b4,rightshoulder:b5,dpup:h0.1,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,leftx:a0,lefty:a1,rightx:a2,righty:a3,lefttrigger:-a4,righttrigger:+a4,menuok:b2,menuesc:b1,platform:MiSTer,
 
 #RetroBit saturn adapter: map both shoulders to mister virtual shoulders (SDL sega style mapping maps right shoulder to left trigger due to some previously existing standard)
 #also map start+A to OSD button
